@@ -58,6 +58,10 @@ body {
   width: 5.5rem;
 }
 
+.botao:hover {
+  background-color: #ffffff45;
+}
+
 .botao--funcao,
 .botao--operador {
   background-color: #00000075;
