@@ -1,0 +1,81 @@
+:root {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #b0b0b0;
+}
+
+.titulo {
+  font-size: 1.8rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.mostrador-container {
+  align-items: flex-end;
+  background-color: #00000045;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 5rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 22rem;
+}
+
+.mostrador {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+.mostrador--anterior {
+  font-size: 1.325rem;
+  margin: 0.5rem;
+}
+
+.container {
+  display: flex;
+  height: 5rem;
+  margin: auto;
+  justify-content: center;
+  width: 22rem;
+}
+
+.teclas {
+  height: 25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.botao {
+  background-color: #00000045;
+  color: #ffffff;
+  font-size: 1.25rem;
+  justify-content: center;
+  height: 5rem;
+  width: 5.5rem;
+}
+
+.botao--funcao,
+.botao--operador {
+  background-color: #00000075;
+}
+
+.botao--grande {
+  height: auto;
+  width: auto;
+  grid-column: span 2;
+}
+
+.rodape {
+  top: 375px;
+  position: relative;
+  text-align: center;
+}
+
+.rodape__link {
+  color: #000000;
+  text-decoration: none;
+}
