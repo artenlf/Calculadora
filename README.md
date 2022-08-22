@@ -5,3 +5,7 @@ Calculadora simples desenvolvida como resposta ao desafio final do #7DaysOfCode 
 Funcionalidades:
 
 1.soma, subtração, divisão; 2. retorno do valor de entrada anterior, após a escolha de uma operação; 3. funções para ac (all clear) e del (deleta o último input inserido); 4. operações com inteiro e com floats;
+
+To-Do list:
+
+Adicionar tema claro/norturno
