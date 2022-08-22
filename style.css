@@ -21,8 +21,8 @@ body {
   flex-direction: column;
   height: 5rem;
   justify-content: center;
-  margin: 0 auto;
-  width: 22rem;
+  margin: 0 auto 1px auto;
+  width: calc(22rem + 3px);
 }
 
 .mostrador {
@@ -37,7 +37,7 @@ body {
 
 .container {
   display: flex;
-  height: 5rem;
+  height: 25rem;
   margin: auto;
   justify-content: center;
   width: 22rem;
@@ -46,11 +46,14 @@ body {
 .teclas {
   height: 25rem;
   display: grid;
+  row-gap: 1px;
+  column-gap: 1px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .botao {
   background-color: #00000045;
+  border: none;
   color: #ffffff;
   font-size: 1.25rem;
   justify-content: center;
@@ -74,16 +77,16 @@ body {
 }
 
 .rodape {
-  top: 375px;
   position: relative;
+  top: 75px;
   text-align: center;
 }
 
 .rodape__link {
-  color: #000000;
   text-decoration: none;
 }
 
 .rodape__logo {
+  margin-right: 1.5rem;
   width: 40px;
 }
