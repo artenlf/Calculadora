@@ -8,4 +8,4 @@ Funcionalidades:
 
 To-Do list:
 
-Adicionar tema claro/norturno
+Adicionar temas e cores novas
