@@ -7,7 +7,7 @@
 - [Status](#Status)
 - [Deploy](#Deploy)
 - [Features](#Features)
-- [Ideias de Melhoria & Correção de Bugs](#Melhorias-e-Bugs-Conhecidos)
+- [Melhorias & Bugs Conhecidos](#Melhorias-e-Bugs-Conhecidos)
 - [Tecnologias utilizadas](#Tecnologias)
 
 ### Introdução
