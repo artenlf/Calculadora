@@ -4,9 +4,7 @@ const botaoIgualdade = document.querySelector("[data-igualdade]");
 const allClear = document.querySelector("[data-ac]");
 const botaoDel = document.querySelector("[data-del]");
 const mostradorTexto = document.querySelector("[data-mostrador-atual]");
-const mostradorAnteriorTexto = document.querySelector(
-  "[data-mostrador-anterior]"
-);
+const mostradorAnteriorTexto = document.querySelector("[data-mostrador-anterior]");
 
 class Calculadora {
   constructor(mostradorAnteriorTexto, mostradorTexto) {
@@ -61,7 +59,7 @@ class Calculadora {
         return;
     }
 
-    this.mostrador = resultado;
+    this.mostrador = Math.round(resultado);
     this.operacao = undefined;
     this.mostradorAnterior = "";
   }
@@ -89,9 +87,7 @@ class Calculadora {
   }
 
   atualizaDisplay() {
-    this.mostradorAnteriorTexto.innerText = `${this.formataNumeros(
-      this.mostradorAnterior
-    )} ${this.operacao || ""}`;
+    this.mostradorAnteriorTexto.innerText = `${this.formataNumeros(this.mostradorAnterior)} ${this.operacao || ""}`;
     this.mostradorTexto.innerText = this.formataNumeros(this.mostrador);
   }
 }
