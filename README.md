@@ -6,9 +6,8 @@
 - [Objetivo do projeto](#Objetivo)
 - [Status](#Status)
 - [Deploy](#Deploy)
-- [Screenshots](#Screenshots)
 - [Features](#Features)
-- [Ideias de Melhoria & Correção de Bugs](#Melhorias-e-Bugs-Conhecidos)
+- [Melhorias & Bugs Conhecidos](#Melhorias-e-Bugs-Conhecidos)
 - [Tecnologias utilizadas](#Tecnologias)
 
 ### Introdução
@@ -27,11 +26,6 @@
 
 https://calculadora-artenlf.vercel.app/
 
-### Screenshots
-
-<img align="center" alt="Screenshot 1 Calculadora" src="https://imgur.com/ynt3mNd">
-<img align="center" alt="Screenshot 2 Calculadora" src="https://imgur.com/DO5ZgzL">
-
 ### Features
 
 - [x] Adição, subtração, dvisião e multiplicação;
@@ -44,7 +38,7 @@ https://calculadora-artenlf.vercel.app/
 
 ### Melhorias e Bugs conhecidos
 
-- [ ] Bug float JavaScript (i.e. 100 \* 1.1);
+- [x] Bug float JavaScript (i.e. 100 \* 1.1);
 - [ ] Bug quando resultado é zero, força a clicar AC;
 
 ### Tecnologias
